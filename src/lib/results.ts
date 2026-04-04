@@ -18,7 +18,7 @@ export const results: Record<ResultType, ResultCard> = {
   kiri: {
     name: "霧のカード",
     symbol: "\u{1F32B}\u{FE0F}",
-    image: "/cards/kiri.png",
+    image: "/cards/kiri.webp",
     grad: "linear-gradient(135deg, #2C3E50 0%, #4A6274 50%, #7B8FA1 100%)",
     gradFrom: "#2C3E50",
     gradVia: "#4A6274",
@@ -31,7 +31,7 @@ export const results: Record<ResultType, ResultCard> = {
   honoo: {
     name: "炎のカード",
     symbol: "\u{1F525}",
-    image: "/cards/honoo.png",
+    image: "/cards/honoo.webp",
     grad: "linear-gradient(135deg, #4A1A1A 0%, #8B2500 50%, #E74C3C 100%)",
     gradFrom: "#4A1A1A",
     gradVia: "#8B2500",
@@ -44,7 +44,7 @@ export const results: Record<ResultType, ResultCard> = {
   izumi: {
     name: "泉のカード",
     symbol: "\u{1F4A7}",
-    image: "/cards/izumi.png",
+    image: "/cards/izumi.webp",
     grad: "linear-gradient(135deg, #1A2A3A 0%, #1B4F72 50%, #3498DB 100%)",
     gradFrom: "#1A2A3A",
     gradVia: "#1B4F72",
@@ -57,7 +57,7 @@ export const results: Record<ResultType, ResultCard> = {
   hakari: {
     name: "秤のカード",
     symbol: "\u{2696}\u{FE0F}",
-    image: "/cards/hakari.png",
+    image: "/cards/hakari.webp",
     grad: "linear-gradient(135deg, #3A2A0A 0%, #7D5A0B 50%, #F39C12 100%)",
     gradFrom: "#3A2A0A",
     gradVia: "#7D5A0B",
@@ -70,7 +70,7 @@ export const results: Record<ResultType, ResultCard> = {
   nagare: {
     name: "流れのカード",
     symbol: "\u{1F30A}",
-    image: "/cards/nagare.png",
+    image: "/cards/nagare.webp",
     grad: "linear-gradient(135deg, #0A3A1A 0%, #1B6B3A 50%, #2ECC71 100%)",
     gradFrom: "#0A3A1A",
     gradVia: "#1B6B3A",

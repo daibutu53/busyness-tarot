@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import type { ResultCard, ResultType } from "@/lib/results";
 import ShareButtons from "./ShareButtons";
 
@@ -32,9 +33,12 @@ export default function ResultDisplay({ resultType, card }: Props) {
     <div className="w-full text-center">
       <div className="animate-card-reveal">
         <div className="mx-auto max-w-[280px] mb-6">
-          <img
+          <Image
             src={card.image}
             alt={card.name}
+            width={560}
+            height={980}
+            priority
             className="w-full h-auto rounded-lg"
             style={{
               boxShadow: "0 8px 40px rgba(212,175,120,0.25), 0 0 60px rgba(212,175,120,0.1)",

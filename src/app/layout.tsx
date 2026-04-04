@@ -6,6 +6,7 @@ const notoSerifJP = Noto_Serif_JP({
   subsets: ["latin"],
   weight: ["400", "700"],
   variable: "--font-serif-jp",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
