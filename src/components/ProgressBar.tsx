@@ -5,7 +5,7 @@ export default function ProgressBar({ current, total }: { current: number; total
 
   return (
     <div className="mb-7">
-      <div className="flex justify-between text-[11px] text-[var(--color-dim)] mb-2 tracking-wider">
+      <div className="flex justify-between text-[13px] text-[var(--color-dim)] mb-2 tracking-wider">
         <span>QUESTION</span>
         <span>{current + 1} / {total}</span>
       </div>
