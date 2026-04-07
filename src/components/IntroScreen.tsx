@@ -4,7 +4,7 @@ export default function IntroScreen({ onStart }: { onStart: () => void }) {
   return (
     <div className="text-center">
       <div className="text-[64px] mb-4">🌙</div>
-      <h1 className="text-[30px] font-bold tracking-[0.15em] mb-1.5 text-[var(--color-gold)]">
+      <h1 className="text-[26px] font-bold tracking-[0.15em] mb-1.5 text-[var(--color-gold)]">
         忙しさの正体タロット
       </h1>
       <p className="text-[16px] text-[var(--color-dim)] tracking-[0.08em] mb-9">
