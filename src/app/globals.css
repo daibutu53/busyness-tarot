@@ -7,13 +7,12 @@
   --color-gold-light: #F0D9A0;
   --color-sub: #BFB5A3;
   --color-dim: #7A7060;
-  --font-serif: var(--font-serif-jp);
 }
 
 body {
   background: var(--color-bg);
   color: var(--color-txt);
-  font-family: var(--font-serif), "Hiragino Mincho ProN", "Yu Mincho", serif;
+  font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
 }
 
 /* Background radial effects */
