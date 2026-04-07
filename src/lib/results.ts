@@ -30,7 +30,7 @@ export const results: Record<ResultType, ResultCard> = {
     keyMsg: "まずは「何に時間とお金が流れているのか」を知ること",
     step: "1週間だけでいいので、自分が何に時間を使っているかを書き出してみてください",
     ctaUrl: "https://www.reservestock.jp/subscribe/NGUwNDFhMTZjN",
-    ctaLabel: "霧を晴らすための無料メール講座を受け取る",
+    ctaLabel: "霧を晴らすための処方箋を受け取る",
   },
   honoo: {
     name: "炎のカード",
@@ -45,7 +45,7 @@ export const results: Record<ResultType, ResultCard> = {
     keyMsg: "増やす前に「減らすこと」が必要なタイミング",
     step: "「やらなくてもいいこと」を1つだけ決めて手放してみてください",
     ctaUrl: "https://www.reservestock.jp/subscribe/YmE1Y2E2MTdhN",
-    ctaLabel: "炎を整えるための無料メール講座を受け取る",
+    ctaLabel: "炎を整えるための処方箋を受け取る",
   },
   izumi: {
     name: "泉のカード",
@@ -60,7 +60,7 @@ export const results: Record<ResultType, ResultCard> = {
     keyMsg: "足りないのは努力ではなく「受け取る設計」",
     step: "今の仕事を1つ選んで、「この仕事に何時間使っているか」と「時給はいくらか」を出してみてください",
     ctaUrl: "https://www.reservestock.jp/subscribe/MTY1NTQ1NjJjY",
-    ctaLabel: "枯れない泉をつくるための無料メール講座を受け取る",
+    ctaLabel: "枯れない泉をつくるための処方箋を受け取る",
   },
   hakari: {
     name: "秤のカード",
@@ -75,7 +75,7 @@ export const results: Record<ResultType, ResultCard> = {
     keyMsg: "整えることで一気に軽くなる段階",
     step: "今やっている仕事を「増やす・維持・減らす」に分けてみてください",
     ctaUrl: "https://www.reservestock.jp/subscribe/NDQzMTg1OWJmN",
-    ctaLabel: "バランスを整えるための無料メール講座を受け取る",
+    ctaLabel: "バランスを整えるための処方箋を受け取る",
   },
   nagare: {
     name: "流れのカード",
@@ -90,7 +90,7 @@ export const results: Record<ResultType, ResultCard> = {
     keyMsg: "どこに集中するかで未来が変わる段階",
     step: "今の中で一番伸ばしたいものを1つ決めて、そこに集中してください",
     ctaUrl: "https://www.reservestock.jp/subscribe/NDYxYThhM2U1N",
-    ctaLabel: "流れを加速させるための無料メール講座を受け取る",
+    ctaLabel: "流れを加速させるための処方箋を受け取る",
   },
 };
 
