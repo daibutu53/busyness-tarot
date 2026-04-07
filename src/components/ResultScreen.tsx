@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import type { ResultCard, ResultType } from "@/lib/results";
-import ShareButtons from "./ShareButtons";
 
 type Props = {
   resultType: ResultType;
@@ -87,8 +86,6 @@ export default function ResultScreen({ resultType, card, onRetry }: Props) {
               </a>
             </div>
           )}
-
-          <ShareButtons resultType={resultType} card={card} />
 
           <div className="text-center mt-8">
             <button
