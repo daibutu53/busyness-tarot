@@ -65,6 +65,26 @@ export default function ResultDisplay({ resultType, card }: Props) {
             {card.step}
           </InfoBox>
 
+          {card.ctaUrl && (
+            <div className="text-center mt-8 mb-4">
+              <p className="text-[13px] text-[var(--color-dim)] tracking-wider mb-4">
+                このカードが気になったあなたへ
+              </p>
+              <a
+                href={card.ctaUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block text-base font-bold text-[var(--color-bg)] tracking-[0.08em] no-underline py-4 px-10 rounded-full"
+                style={{
+                  background: "linear-gradient(135deg, var(--color-gold), var(--color-gold-light))",
+                  boxShadow: "0 4px 24px rgba(212,175,120,0.3)",
+                }}
+              >
+                {card.ctaLabel || "無料メール講座を受け取る"}
+              </a>
+            </div>
+          )}
+
           <ShareButtons resultType={resultType} card={card} />
 
           <div className="text-center mt-8">
